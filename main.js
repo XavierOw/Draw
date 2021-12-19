@@ -22,6 +22,22 @@ line(pmouseX, pmouseY, mouseX, mouseY)
  }
 }
 
+function  counter()
+{
+    if(condition){
+        counter++
+        }
+        
+}
+
+function counter_speed()
+{
+    if(stroke=='black' || stroke=='red'){
+        line(30,40,25,50)
+        }
+}
+
+
 function gotResult(error, results)
 {
     if (error)
